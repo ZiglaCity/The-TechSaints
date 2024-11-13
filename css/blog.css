@@ -1,0 +1,190 @@
+/* Blog Page Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #333;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #FFD700;
+}
+
+/* Header Styles */
+header {
+    text-align: center;
+    padding: 2rem 0;
+    background-color: #222;
+    color: #fff;
+}
+
+.logo-container img {
+    max-width: 100px;
+    border-radius: 50%;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-top: 0.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #ddd;
+}
+
+/* Blog Posts Section */
+.blog-posts {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+.post {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.post:hover {
+    transform: scale(1.05);
+}
+
+.post-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    transition: opacity 0.3s ease;
+}
+
+.post-content {
+    padding: 1.5rem;
+}
+
+.post-content h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 0 0 0.5rem;
+}
+
+.post-content .post-excerpt {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6;
+}
+
+.post-content a {
+    color: #FFD700;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 1rem;
+    transition: color 0.3s;
+}
+
+.post-content a:hover {
+    color: #333;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #222;
+    color: #ddd;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 0.9rem;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .blog-posts {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+
+
+
+
+/* 
+.blog-posts {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 40px;
+}
+
+.post {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 100%;
+    max-width: 300px;
+    transition: transform 0.3s;
+}
+
+.post:hover {
+    transform: translateY(-10px);
+}
+
+.post-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.post-content {
+    padding: 20px;
+}
+
+.post-content h2 {
+    font-size: 22px;
+    color: #333;
+}
+
+.post-content p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.post-content a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+.post-content a:hover {
+    text-decoration: underline;
+}
+ */
