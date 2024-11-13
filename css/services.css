@@ -1,0 +1,99 @@
+/* Services Page */
+.services-overview {
+    text-align: center;
+    max-width: 900px;
+    margin: 3rem auto;
+    padding: 2rem;
+}
+
+.services-overview h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.services-overview p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 2rem;
+}
+
+/* Service Cards Layout */
+.services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.service-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+}
+
+.service-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.service-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 2px solid #ddd;
+    transition: transform 0.3s;
+}
+
+.service-card:hover .service-img {
+    transform: scale(1.1);
+}
+
+.service-card h3 {
+    font-size: 1.8rem;
+    color: #333;
+    margin: 1rem 0;
+}
+
+.service-card p {
+    font-size: 1rem;
+    color: #666;
+    padding: 0 1rem 1.5rem;
+}
+
+/* Call to Action Section */
+.cta {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.cta p {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.cta a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.cta a:hover {
+    color: #0056b3;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .services-overview {
+        padding: 1rem;
+    }
+
+    .service-card {
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+}
