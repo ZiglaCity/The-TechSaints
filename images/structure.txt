@@ -1,0 +1,32 @@
+project-root
+│
+├── html/
+├── css/
+└── images/
+    ├── brand/
+    │   └── brand_logo.png
+    ├── founders/
+    │   ├── founder_zigla.png
+    │   └── founder_edwin.png
+    ├── services/
+    │   ├── service_graphic_design.jpg
+    │   ├── service_desktop_app.jpg
+    │   ├── service_mobile_app.jpg  *
+    │   ├── service_video_editing.jpg  *
+    │   └── service_photo_editing.jpg  *
+    ├── social/
+    │   ├── icon_linkedin.png
+    │   ├── icon_twitter.png
+    │   ├── icon_facebook.png
+    │   └── icon_instagram.png
+    ├── blog/
+    │   ├── blog_graphic_design.jpg
+    │   ├── blog_online_security.jpg
+    │   ├── blog_web_dev.jpg *
+    │   └── blog_desktop_app.jpg
+    └── projects/
+        ├── currency_converter.jpg
+        ├── ztube_downloader.jpg  *
+        ├── guess_game.jpg *
+        ├── graphic_design_project.jpg
+        └── mobile_app_project.jpg  *
