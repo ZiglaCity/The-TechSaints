@@ -1,0 +1,252 @@
+
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+/* Navigation Bar Styles */
+
+.navbar {
+    background-color: #333;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    display: flex;
+    padding: 10px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: right;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: right;
+    gap: 10px;
+    text-align: right;
+    margin-left: 50px;
+    list-style-type: none;
+
+}
+
+.nav-links li {
+    margin: 0 10px;
+    text-align: right;
+    justify-content: right;
+    
+
+}
+
+.nav-links li a {
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 5px 10px;
+    display: block;
+    transition: color 0.3s, transform 0.3s;
+    text-decoration: none;
+
+}
+
+.nav-links a:hover {
+    color: #FFD700;
+    transition: color 0.3s;
+    transform: translateY(-5px);
+}
+
+
+
+
+/* Header */
+header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #e3f2fd;
+    border-bottom: 2px solid #0d47a1;
+    text-align: center;
+}
+
+.logo-container {
+    margin-bottom: 10px;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #0d47a1;
+    margin-bottom: 10px;
+}
+
+/* Main Content */
+main {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.introduction h2 {
+    font-size: 2em;
+    color: #0d47a1;
+    margin-bottom: 10px;
+}
+
+.introduction p {
+    font-size: 1.1em;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .nav-links {
+        flex-direction: column;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+
+    header h1 {
+        font-size: 2em;
+    }
+
+    .introduction h2 {
+        font-size: 1.8em;
+    }
+
+    .introduction p {
+        padding: 0 15px;
+    }
+}
+
+
+
+
+
+
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    margin-left: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+
+/* Index Page Specific Styles */
+header {
+    background-color: #ffffff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+header p {
+    font-size: 20px;
+    color: #666;
+    margin-top: 10px;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    
+}
+
+.logo-container img {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+/* General Page Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .resources-section {
+        padding: 40px 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    nav ul {
+        flex-direction: column;
+        padding: 10px 0;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+}
+
+
