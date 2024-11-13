@@ -1,0 +1,176 @@
+/* General Styling for the About Page */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #fafafa;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    background-color: #e0f7fa;
+    border-bottom: 2px solid #00796b;
+    text-align: center;
+}
+
+.logo-container {
+    margin-bottom: 10px;
+}
+
+.logo {
+    width: 120px;
+    height: auto;
+    border-radius: 50%; /* Circular logo for a friendly, modern touch */
+    border: 3px solid #00796b;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #00796b;
+    margin-top: 15px;
+}
+
+/* Introduction Section */
+.company-introduction {
+    padding: 40px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: 20px auto;
+    max-width: 900px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.company-introduction:hover {
+    transform: scale(1.02);
+}
+
+.company-introduction h2 {
+    color: #00796b;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.company-introduction p {
+    font-size: 1.15em;
+    color: #555;
+    line-height: 1.8;
+    padding: 0 15px;
+}
+
+/* Founders Section */
+.our-roles {
+    padding: 40px 20px;
+    background-color: #e8f5e9;
+    text-align: center;
+}
+
+.our-roles h2 {
+    color: #2e7d32;
+    font-size: 2em;
+    margin-bottom: 25px;
+}
+
+.role {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+
+.role:hover {
+    transform: scale(1.02);
+}
+
+.role h3 {
+    color: #00796b;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.role p {
+    font-size: 1.1em;
+    color: #444;
+    line-height: 1.8;
+    padding-right: 15px;
+    flex: 1;
+}
+
+.role-img {
+    width: 150px;
+    margin-left: 20px;
+}
+
+.founder-img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    border: 3px solid #2e7d32;
+}
+
+/* Future Plans Section */
+.future-plans {
+    padding: 40px;
+    background-color: #f1f8e9;
+    text-align: center;
+}
+
+.future-plans h2 {
+    color: #388e3c;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.future-plans p {
+    font-size: 1.15em;
+    color: #555;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.8;
+}
+
+/* CTA Section */
+.cta {
+    background-color: #00796b;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin: 30px 0;
+    border-radius: 8px;
+}
+
+.cta p {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.cta a {
+    color: #ffeb3b;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.cta a:hover {
+    color: #ffffff;
+}
+
+/* Footer */
+footer {
+    background-color: #00796b;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.9em;
+    margin-top: 40px;
+}
