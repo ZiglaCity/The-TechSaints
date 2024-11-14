@@ -1,0 +1,25 @@
+.nav-toggle {
+    display: none;
+    background-color: #0d47a1;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .nav-toggle {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+    }
+
+    .nav-links.visible {
+        display: flex;
+    }
+}
