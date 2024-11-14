@@ -18,6 +18,16 @@ body {
 
 
 /* Navigation Bar Styles */
+.brand-name{
+    color:#e3f2fd;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 .navbar {
     background-color: #333;
@@ -27,31 +37,22 @@ body {
     display: flex;
     padding: 10px 0;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    text-align: right;
 }
 
-.nav-links {
-    display: flex;
-    justify-content: right;
-    gap: 10px;
-    text-align: right;
-    margin-left: 50px;
-    list-style-type: none;
+.navbar ul{
+    display:flex;
+    justify-content: flex-end;
+    margin-left: auto;
 
 }
-
-.nav-links li {
-    margin: 0 10px;
-    text-align: right;
-    justify-content: right;
-    
-
+.active:click{
+    background-color: yellow !important;
+    color: black !important;
 }
 
 .nav-links li a {
     color: white;
     font-size: 1.1rem;
-    font-weight: bold;
     padding: 5px 10px;
     display: block;
     transition: color 0.3s, transform 0.3s;
@@ -166,6 +167,7 @@ a {
 ul {
     list-style-type: none;
 }
+
 
 
 /* Footer Styles */
