@@ -7,30 +7,6 @@ body {
     padding: 0;
 }
 
-/* Navbar Styles */
-.navbar {
-    background-color: #333;
-    padding: 1rem;
-    display: flex;
-    justify-content: center;
-}
-
-.nav-links {
-    list-style: none;
-    display: flex;
-    gap: 2rem;
-}
-
-.nav-links a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s;
-}
-
-.nav-links a:hover {
-    color: #FFD700;
-}
 
 /* Header Styles */
 header {
@@ -40,9 +16,14 @@ header {
     color: #fff;
 }
 
-.logo-container img {
-    max-width: 100px;
-    border-radius: 50%;
+
+.logo-container {
+    margin-bottom: 10px;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
 }
 
 header h1 {
