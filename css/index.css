@@ -22,3 +22,32 @@
     margin: 0 auto;
     padding: 0 10px;
 }
+header {
+    text-align: center;
+    background-color: #222;
+    color: #fff;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    padding: 20px;
+}
+
+
+.logo-container {
+    margin-bottom: 10px;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-top: 0.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #ddd;
+}
