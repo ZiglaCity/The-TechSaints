@@ -109,8 +109,8 @@ header h1 {
 
 .founder-img {
     width: 100%;
-    height: 180px;
-    /* border-radius: 50%; */
+    height: 160px;
+    border-radius: 50%;
     border: 3px solid #2e7d32;
 }
 
