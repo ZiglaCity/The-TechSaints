@@ -135,31 +135,26 @@ header h1 {
     line-height: 1.8;
 }
 
-/* CTA Section */
+/* Call to Action Section */
 .cta {
-    color: white;
-    padding: 20px;
     text-align: center;
-    border-radius: 8px;
-    background-color: #333;
-    color: white;
-    text-align: center;
+    margin-top: 3rem;
 }
 
 .cta p {
-    font-size: 1.2em;
-    margin: 0;
+    font-size: 1.2rem;
+    color: #333;
 }
 
 .cta a {
-    color: #ffeb3b;
+    color: #007bff;
     text-decoration: none;
     font-weight: bold;
-    transition: color 0.3s ease;
+    transition: color 0.3s;
 }
 
 .cta a:hover {
-    color: #ffffff;
+    color: #0056b3;
 }
 
 
