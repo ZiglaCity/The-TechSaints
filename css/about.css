@@ -6,32 +6,28 @@ body {
     line-height: 1.6;
 }
 
-/* Header Styling */
+
+/* Header Styles */
 header {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding: 30px;
-    background-color: #e0f7fa;
-    border-bottom: 2px solid #00796b;
     text-align: center;
+    padding: 2rem 0;
+    background-color: #222;
+    color: #fff;
 }
+
 
 .logo-container {
     margin-bottom: 10px;
 }
 
 .logo {
-    width: 120px;
+    width: 100px;
     height: auto;
-    border-radius: 50%; /* Circular logo for a friendly, modern touch */
-    border: 3px solid #00796b;
 }
 
 header h1 {
-    font-size: 2.5em;
-    color: #00796b;
-    margin-top: 15px;
+    font-size: 2.5rem;
+    margin-top: 0.5rem;
 }
 
 /* Introduction Section */
@@ -113,8 +109,8 @@ header h1 {
 
 .founder-img {
     width: 100%;
-    height: auto;
-    border-radius: 50%;
+    height: 180px;
+    /* border-radius: 50%; */
     border: 3px solid #2e7d32;
 }
 
@@ -141,12 +137,13 @@ header h1 {
 
 /* CTA Section */
 .cta {
-    background-color: #00796b;
     color: white;
     padding: 20px;
     text-align: center;
-    margin: 30px 0;
     border-radius: 8px;
+    background-color: #333;
+    color: white;
+    text-align: center;
 }
 
 .cta p {
@@ -165,12 +162,4 @@ header h1 {
     color: #ffffff;
 }
 
-/* Footer */
-footer {
-    background-color: #00796b;
-    color: white;
-    text-align: center;
-    padding: 15px 0;
-    font-size: 0.9em;
-    margin-top: 40px;
-}
+
