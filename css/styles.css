@@ -45,10 +45,6 @@ body {
     margin-left: auto;
 
 }
-.active:click{
-    background-color: yellow !important;
-    color: black !important;
-}
 
 .nav-links li a {
     color: white;
@@ -66,7 +62,11 @@ body {
     transform: translateY(-5px);
 }
 
-
+/* Style for active link */ 
+.nav-links a.active {
+    background-color: yellow !important;
+    color: black !important;
+}
 
 
 /* Header */
