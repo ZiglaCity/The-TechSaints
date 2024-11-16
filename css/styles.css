@@ -23,7 +23,6 @@ body {
     margin-top: 5px;
     margin-bottom: 5px;
     margin-left: 20px;
-
     font-size: 18px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
@@ -31,7 +30,6 @@ body {
 
 .navbar {
     background-color: #333;
-    position: sticky;
     top: 0;
     width: 100%;
     display: flex;
@@ -41,7 +39,6 @@ body {
 
 .navbar ul{
     display:flex;
-    justify-content: flex-end;
     margin-left: auto;
 
 }
@@ -120,6 +117,8 @@ main {
 @media (max-width: 768px) {
     .nav-links {
         flex-direction: column;
+        align-items: center;
+        padding: 0;
     }
 
     .nav-links li {
